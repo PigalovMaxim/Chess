@@ -1,0 +1,64 @@
+//Colors
+$bg: #0d1017;
+$lightColor: #161b21;
+$lightColorHover: #23282e;
+$primaryColor: #56a7f8;
+$primaryColorHover: #438cd4;
+$colorText: #c6d1dd;
+//ChessColors 
+$blackColor: #b58763;
+$whiteColor: #f0dab5;
+$choosenColor: #636f3f;
+$choosenColorHover: #555f35;
+$availableColor: #cdd26b;
+$availableColorHover: #aeb353;
+//Mixins
+@mixin flex_column_start_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flex_column_center_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex_column_between_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex_column_around_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin flex_row_start_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flex_row_center_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex_row_between_start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex_row_around_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+

@@ -1,0 +1,27 @@
+@import '../../../other/MainStyles.scss';
+.wrapper {
+    @include flex_row_center_center;
+    .game_block {
+        @include flex_row_start_center;
+        background-color: white;
+        height: 700px;
+        width: 700px;
+        .row {
+            @include flex_column_start_center;
+            width: 12.5%;
+            height: 100%;
+        }
+    }
+    .rotated {
+        transform: rotateZ(180deg);
+    }
+    .data {
+        @include flex_column_start_center;
+        padding: 30px;
+        margin-left: 30px;
+        width: 500px;
+        height: 700px;
+        background-color: $lightColor;
+        color: $colorText;
+    }
+}

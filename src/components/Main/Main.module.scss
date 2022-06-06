@@ -1,0 +1,15 @@
+@import '../../other/MainStyles.scss';
+main {
+    height: 100%;
+    width: 100%;
+    @include flex_row_center_center;
+    .controls {
+        @include flex_row_center_center;
+        .text {
+            color: $colorText;
+            width: min-content;
+            text-align: center;
+            margin-right: 100px;
+        }
+    }
+}
